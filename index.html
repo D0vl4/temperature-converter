@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Temperature converter</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script href="index.js"></script>
+  </head>
+  <body>
+    <main id="container">
+      <section>
+        <h1>
+          Welcome to the<br />
+          <span class="temperature-text">temperature</span> converter 👋🏻
+        </h1>
+        <span class="tutorial">0 °C is 32 °F and 273.15 K</span>
+        <hr />
+        <p>Please input the temperature in Celsius you want to convert</p>
+        <article class="input-output">
+          <input
+            type="number"
+            id="temperature-input"
+            min="10"
+            max="100"
+            placeholder="10"
+          />
+          <div id="output"></div>
+        </article>
+        <button id="convert-button">Convert Temperature</button>
+        <button id="reset-button">Reset</button>
+        <span class="made"
+          >Made with ❤️ by
+          <a href="https://dovla.me" target="_blank">Vlado</a></span
+        >
+      </section>
+    </main>
+  </body>
+</html>

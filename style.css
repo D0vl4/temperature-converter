@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: "Poppins";
+}
+
+:root {
+  --main-background: #f9f3de;
+  --container: #333333;
+  --orange: #de5c44;
+  --placeholder: #d9d9d9;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: var(--main-background);
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 37.5rem;
+  min-height: 40rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: var(--container);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+h1,
+span {
+  color: var(--orange);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.tutorial {
+  font-weight: 300;
+}
+
+.temperature-text {
+  background-color: var(--main-background);
+}
+
+hr {
+  width: 30rem;
+  border-bottom: 1px solid var(--main-background);
+  border-radius: 50%;
+}
+
+p {
+  color: var(--main-background);
+  text-align: center;
+  width: 25rem;
+  font-size: 1.5rem;
+}
+
+.input-output {
+  display: flex;
+  gap: 1rem;
+}
+
+#temperature-input {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  color: var(--orange);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input::placeholder {
+  color: var(--placeholder);
+}
+
+#output {
+  display: flex;
+  align-items: center;
+  width: 15rem;
+  height: 10rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--main-background);
+  background-color: var(--orange);
+  z-index: 99999;
+}
+
+#convert-button {
+  width: 26rem;
+  height: 3rem;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--orange);
+  color: var(--main-background);
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+#convert-button:hover {
+  background-color: var(--main-background);
+  color: var(--orange);
+}
+
+#convert-button:active {
+  transform: translateY(3px);
+}
+
+#reset-button {
+  width: 26rem;
+  height: 3rem;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--main-background);
+  color: var(--orange);
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+#reset-button:hover {
+  background-color: var(--orange);
+  color: var(--main-background);
+}
+
+#reset-button:active {
+  transform: translateY(3px);
+}
+
+.made {
+  color: var(--main-background);
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--orange);
+}
