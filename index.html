@@ -21,12 +21,13 @@
           Welcome to the<br />
           <span class="temperature-text">temperature</span> converter 👋🏻
         </h1>
-        <span class="tutorial">0 °C is 32 °F and 273.15 K</span>
+        <span class="tutorial">0 °C is 32 °F</span>
         <hr />
         <p>Please input the temperature in Celsius you want to convert</p>
         <article class="input-output">
           <input
             type="number"
+            inputmode="numeric"
             id="temperature-input"
             min="10"
             max="100"
@@ -45,8 +46,7 @@
     <script>
       function temperatureConverter(celsius) {
         var fahrenheit = Math.floor(celsius * (9 / 5) + 32);
-        var kelvin = Math.floor(celsius + 273.15);
-        return celsius + "°C is " + fahrenheit + "°F and " + kelvin + "K.";
+        return celsius + "°C is " + fahrenheit + "°F ";
       }
 
       var convertButton = document.getElementById("convert-button");

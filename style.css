@@ -97,11 +97,12 @@ input::placeholder {
 #output {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 15rem;
   height: 10rem;
   border-radius: 10px;
   border: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   color: var(--main-background);
   background-color: var(--orange);
@@ -120,6 +121,11 @@ input::placeholder {
   cursor: pointer;
 }
 
+/* #convert-button:hover {
+  background-color: var(--main-background);
+  color: var(--orange);
+} */
+
 #convert-button:active {
   transform: translateY(3px);
 }
@@ -135,6 +141,11 @@ input::placeholder {
   letter-spacing: 1px;
   cursor: pointer;
 }
+
+/* #reset-button:hover {
+  background-color: var(--orange);
+  color: var(--main-background);
+} */
 
 #reset-button:active {
   transform: translateY(3px);
