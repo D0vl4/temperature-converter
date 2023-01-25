@@ -106,8 +106,7 @@ input::placeholder {
   width: 15rem;
   height: 10rem;
   border-radius: 10px;
-  border: none;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   text-align: center;
   color: var(--main-background);
   background-color: var(--orange);

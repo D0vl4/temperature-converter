@@ -48,8 +48,8 @@
     </main>
     <script>
       function temperatureConverter(celsius) {
-        var fahrenheit = Math.floor(celsius * (9 / 5) + 32);
-        return celsius + "°C is " + fahrenheit + "°F ";
+        var fahrenheit = celsius * (9 / 5) + 32;
+        return celsius + "°C is " + fahrenheit.toFixed(2) + "°F ";
       }
 
       var convertButton = document.getElementById("convert-button");
