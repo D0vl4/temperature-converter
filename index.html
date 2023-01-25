@@ -19,18 +19,21 @@
       <section>
         <h1>
           Welcome to the<br />
-          <span class="temperature-text">temperature</span> converter 👋🏻
+          <span class="temperature-text">temperature</span> converter 🌡️
         </h1>
-        <span class="tutorial">0 °C is 32 °F</span>
+        <span class="tutorial"
+          >By default <span class="light-text">0</span> °C is
+          <span class="light-text">32</span> °F</span
+        >
         <hr />
-        <p>Please input the temperature in Celsius you want to convert</p>
+        <p>Please input the temperature in Celsius you want to convert:</p>
         <article class="input-output">
           <input
             type="number"
             inputmode="numeric"
             id="temperature-input"
             min="10"
-            max="100"
+            max="999"
             placeholder="10"
           />
           <div id="output"></div>
