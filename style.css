@@ -19,6 +19,7 @@ body {
   align-items: center;
   min-width: 100vw;
   min-height: 100%;
+  margin: 15% 0;
   overflow: hidden;
   background-color: var(--main-background);
 }
