@@ -1,7 +1,7 @@
 function temperatureConverter(celsius) {
   var fahrenheit = Math.floor(celsius * (9 / 5) + 32);
   var kelvin = Math.floor(celsius + 273.15);
-  return celsius + "°C is " + fahrenheit + "°F and " + kelvin + "K.";
+  return celsius + " °C is " + fahrenheit + " °F and " + kelvin + " K.";
 }
 
 var convertButton = document.getElementById("convert-button");
