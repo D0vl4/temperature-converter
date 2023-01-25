@@ -115,7 +115,7 @@ input::placeholder {
 
 #convert-button {
   width: 26rem;
-  height: 3rem;
+  height: 5rem;
   border: none;
   border-radius: 10px;
   background-color: var(--orange);
@@ -136,7 +136,7 @@ input::placeholder {
 
 #reset-button {
   width: 26rem;
-  height: 3rem;
+  height: 5rem;
   border: none;
   border-radius: 10px;
   background-color: var(--main-background);
