@@ -97,6 +97,12 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+/* Mozzila browser a rrows are hidden */ 
+
+input[type=range]::-moz-range-thumb {
+  appearance: none;
+}
+
 input::placeholder {
   color: var(--placeholder);
 }
