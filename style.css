@@ -100,7 +100,7 @@ input::-webkit-inner-spin-button {
 /* Mozzila browser a rrows are hidden */ 
 
 input[type=range]::-moz-range-thumb {
-  appearance: none;
+  display: none;
 }
 
 input::placeholder {
