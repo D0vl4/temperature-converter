@@ -98,9 +98,11 @@ input::-webkit-inner-spin-button {
 }
 
 /* Mozzila browser a rrows are hidden */ 
-
 input[type=range]::-moz-range-thumb {
-  display: none;
+    display: none;
+}
+input[type=range]::-moz-range-progress {
+    display: none;
 }
 
 input::placeholder {
