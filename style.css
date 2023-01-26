@@ -124,6 +124,7 @@ input::placeholder {
 }
 
 #convert-button {
+  font-size: 1.3rem;
   width: 26rem;
   height: 5rem;
   border: none;
@@ -145,6 +146,7 @@ input::placeholder {
 }
 
 #reset-button {
+  font-size: 1.3rem;
   width: 26rem;
   height: 5rem;
   border: none;
