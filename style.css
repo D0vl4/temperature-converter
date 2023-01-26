@@ -92,11 +92,9 @@ p {
 }
 
 input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button,
-input[type="range"]::-moz-range-thumb { /* <- this was added */
+input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
-  opacity:0; /* <- this was added */
 }
 
 input::placeholder {
