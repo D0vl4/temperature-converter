@@ -17,8 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 100vw;
-  min-height: 100%;
+  min-height: 100vh;
   margin-top: 15%;
   margin-bottom: 15%;
   overflow: hidden;
