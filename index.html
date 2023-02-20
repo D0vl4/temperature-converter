@@ -50,23 +50,23 @@
     </main>
     <script>
       function temperatureConverter(celsius) {
-        var fahrenheit = celsius * (9 / 5) + 32;
+        let fahrenheit = celsius * (9 / 5) + 32;
         return celsius + "°C is " + fahrenheit.toFixed(2) + "°F ";
       }
 
-      var convertButton = document.getElementById("convert-button");
+      let convertButton = document.getElementById("convert-button");
       convertButton.addEventListener("click", function () {
-        var temperatureInput = document.getElementById("temperature-input");
-        var celsius = temperatureInput.value;
-        var output = document.getElementById("output");
+        let temperatureInput = document.getElementById("temperature-input");
+        let celsius = temperatureInput.value;
+        let output = document.getElementById("output");
         output.innerHTML = temperatureConverter(celsius);
       });
 
-      var resetButton = document.getElementById("reset-button");
+      let resetButton = document.getElementById("reset-button");
       resetButton.addEventListener("click", function () {
-        var temperatureInput = document.getElementById("temperature-input");
+        let temperatureInput = document.getElementById("temperature-input");
         temperatureInput.value = "";
-        var output = document.getElementById("output");
+        let output = document.getElementById("output");
         output.innerHTML = "";
       });
     </script>
